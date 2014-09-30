@@ -2,7 +2,7 @@ package primeF;
 
 import junit.framework.TestCase;
 
-import java.util.List;
+import java.util.*;
 
 public class PrimeFactorsTest extends TestCase {
 
@@ -33,7 +33,7 @@ public class PrimeFactorsTest extends TestCase {
 
 	private List<Integer> list() {
 		// TODO Auto-generated method stub
-		return null;
+		return new ArrayList<Integer>();
 	}
 
 }
