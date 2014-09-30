@@ -2,6 +2,8 @@ package primeF;
 
 import junit.framework.TestCase;
 
+import java.util.List;
+
 public class PrimeFactorsTest extends TestCase {
 
 	/* 
@@ -24,13 +26,9 @@ public class PrimeFactorsTest extends TestCase {
 		assertEquals(list(), PrimeFactors.generate(1));
 	}
 
-	private String list() {
+	private List<Integer> list() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	private String generate(int i) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
