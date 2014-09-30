@@ -1,8 +1,8 @@
 package primeF;
 
 import junit.framework.TestCase;
-
 import java.util.*;
+import static primeF.PrimeFactors.generate;
 
 public class PrimeFactorsTest extends TestCase {
 
@@ -44,11 +44,11 @@ public class PrimeFactorsTest extends TestCase {
 	}
 
 	public void testOne() throws Exception {
-		assertEquals(list(), PrimeFactors.generate(1));
+		assertEquals(list(), generate(1));
 	}
 	
 	public void testTwo() throws Exception {
-		assertEquals(list(2), PrimeFactors.generate(2));
+		assertEquals(list(2), generate(2));
 	}
 	
 }
