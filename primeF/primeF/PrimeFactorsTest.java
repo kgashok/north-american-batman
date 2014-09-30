@@ -26,14 +26,13 @@ public class PrimeFactorsTest extends TestCase {
 	 * junit.framework.AssertionFailedError: expected:<null> but was:<[]>
 	 */
 	
-
-	public void testOne() throws Exception {
-		assertEquals(list(), PrimeFactors.generate(1));
-	}
-
 	private List<Integer> list() {
 		// TODO Auto-generated method stub
 		return new ArrayList<Integer>();
+	}
+
+	public void testOne() throws Exception {
+		assertEquals(list(), PrimeFactors.generate(1));
 	}
 
 }
