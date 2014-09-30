@@ -13,9 +13,15 @@ public class PrimeFactorsTest extends TestCase {
 		The method list() is undefined for the type PrimeFactorsTest
 		The method generate(int) is undefined for the type PrimeFactorsTest
 	*/
+	
+	/*
+	 * java.lang.Error: Unresolved compilation problem: 
+		PrimeFactors cannot be resolved
+
+	 */
 
 	public void testOne() throws Exception {
-		assertEquals(list(),generate(1));
+		assertEquals(list(), PrimeFactors.generate(1));
 	}
 
 	private String list() {
