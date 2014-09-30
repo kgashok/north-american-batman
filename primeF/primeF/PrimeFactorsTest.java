@@ -21,6 +21,11 @@ public class PrimeFactorsTest extends TestCase {
 		PrimeFactors cannot be resolved
 
 	 */
+	
+	/*
+	 * junit.framework.AssertionFailedError: expected:<null> but was:<[]>
+	 */
+	
 
 	public void testOne() throws Exception {
 		assertEquals(list(), PrimeFactors.generate(1));
