@@ -22,8 +22,13 @@ public class PrimeFactorsTest extends TestCase {
 
 	 */
 	
-	/*
+	/* Test 1
 	 * junit.framework.AssertionFailedError: expected:<null> but was:<[]>
+	 */
+	
+	/* Test 2 
+	 * java.lang.Error: Unresolved compilation problem: 
+		The method list() in the type PrimeFactorsTest is not applicable for the arguments (int)
 	 */
 	
 	private List<Integer> list() {
@@ -34,5 +39,10 @@ public class PrimeFactorsTest extends TestCase {
 	public void testOne() throws Exception {
 		assertEquals(list(), PrimeFactors.generate(1));
 	}
+	
+	public void testTwo() throws Exception {
+		assertEquals(list(2), PrimeFactors.generate(2));
+	}
+	
 
 }
