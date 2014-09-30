@@ -44,7 +44,10 @@ public class PrimeFactorsTest extends TestCase {
 	
 	/*
 	 * Test 6
-	 * junit.framework.AssertionFailedError: expected:<[2, 2, 2]> but was:<[2, 4]>
+	 *   junit.framework.AssertionFailedError: expected:<[2, 2, 2]> but was:<[2, 4]>
+	 */
+	/* Test 7
+	 *   junit.framework.AssertionFailedError: expected:<[3, 3]> but was:<[9]>
 	 */
 	private List<Integer> list(int...ints) {
 		// TODO Auto-generated method stub
@@ -76,5 +79,9 @@ public class PrimeFactorsTest extends TestCase {
 	
 	public void testEight() throws Exception { 
 		assertEquals(list(2, 2, 2), generate(8));
+	}
+	
+	public void testNine() throws Exception {
+		assertEquals(list(3, 3), generate(9));
 	}
 }
