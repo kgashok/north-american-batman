@@ -51,5 +51,4 @@ public class PrimeFactorsTest extends TestCase {
 		assertEquals(list(2), PrimeFactors.generate(2));
 	}
 	
-
 }
