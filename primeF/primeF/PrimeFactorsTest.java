@@ -31,9 +31,16 @@ public class PrimeFactorsTest extends TestCase {
 		The method list() in the type PrimeFactorsTest is not applicable for the arguments (int)
 	 */
 	
-	private List<Integer> list() {
+	/*
+	 * junit.framework.AssertionFailedError: expected:<[2]> but was:<[]>
+	 */
+	
+	private List<Integer> list(int...ints) {
 		// TODO Auto-generated method stub
-		return new ArrayList<Integer>();
+		List <Integer> list = new ArrayList<Integer> ();
+		for (int i : ints)
+			list.add(i);
+		return list;
 	}
 
 	public void testOne() throws Exception {
