@@ -84,4 +84,12 @@ public class PrimeFactorsTest extends TestCase {
 	public void testNine() throws Exception {
 		assertEquals(list(3, 3), generate(9));
 	}
+	
+	public void testTen() throws Exception {
+		assertEquals(list(2, 5), generate(10));
+	}
+	
+	public void testTwelve() throws Exception {
+		assertEquals(list(2, 2, 3), generate(12));
+	}
 }
