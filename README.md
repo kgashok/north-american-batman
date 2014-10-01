@@ -7,5 +7,5 @@ Recreating Uncle Bob's Kata on Prime factors
 - OneTab shared tabs http://buff.ly/1otJvX9
 - Want to try a TDD Kata in C instead? This [exercise][CCexec] here on [**CloudCoder**][CC] pretty much has the same test cases, and a few more.
 
-[CCexec]: https://cloudcoder.org/demo/#exercise?c=3,p=48
+[CCexec]: http://bit.ly/primeKG
 [CC]: https://cloudcoder.org/demo/#home
